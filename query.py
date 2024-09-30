@@ -3,7 +3,7 @@ import time
 import sys
 import os
 
-
+# 替换成你从https://steamcommunity.com/dev/apikey获取的apikey
 STEAM_API_KEY = 'YOUR_STEAM_API_KEY'
 
 # 包装
