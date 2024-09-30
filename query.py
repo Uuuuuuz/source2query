@@ -22,7 +22,7 @@ def fancy_print(label, value, label_width=10):
     print(f"{label.ljust(label_width)}: {value}")
 
 def get_server_info(server_ip, server_port, proxies=None):
-    # 查询服务器信息的URL
+    # URL
     url = f"https://api.steampowered.com/IGameServersService/GetServerList/v1/?key={STEAM_API_KEY}&filter=\\addr\\{server_ip}:{server_port}"
 
     try:
